@@ -12,7 +12,7 @@ public class Ejercicio03 {
         while (numero != 0) {
             suma += numero; // Suma el número ingresado
             System.out.println("Ingrese otro número (0 para salir): ");
-            numero = scanner.nextInt(); // Leer otro número
+            numero = scanner.nextInt();
         }
 
         System.out.println("La suma total es: " + suma);

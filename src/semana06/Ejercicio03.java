@@ -10,7 +10,7 @@ public class Ejercicio03 {
         numero = scanner.nextInt();
 
         while (numero != 0) {
-            suma += numero; // Suma el número ingresado
+            suma += numero; 
             System.out.println("Ingrese otro número (0 para salir): ");
             numero = scanner.nextInt();
         }
